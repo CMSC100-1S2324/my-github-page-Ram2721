@@ -1,12 +1,58 @@
 .Titles{
-    font-size: 22px;
+    font-size: 26px;
     background-color: aquamarine;
     text-align: center;
+    place-items: center;
 }
 
-.Navigations{
+.contents{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+.sections{
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.sectionsprofile{
     font-size: 18px;
-    background-color: beige;
+    background-color: aqua;
+    padding-left:350px;
+}
+
+.logo{
+    width: 130px;
+    height: auto;
+}
+
+.projects{
+    background-color: darkcyan;
+    font-size: 16px;
+    text-align:center;
+}
+.skills{
+    background-color: lightslategrey;
+    font-size: 16px;
+    padding-left: 100px;
+}
+
+.MySkills{
+    font-size:16px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.MyProfile{
+    font-size:16px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 350px;
+
 }
 
 .flex-container{
@@ -28,5 +74,86 @@
     border-style:solid;
     border-width:2px;
     border-color:black;
+    
+}
+
+.flex-item-logo{
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    flex:auto;
+    border-style:solid;
+    border-width:2px;
+    border-color: transparent;
+    
+}
+.nested-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nested-flex-container4{
+    display: flex;
+    align-content: space-evenly;
+    align-items: center;
+    
+}
+.nested-flex-container3{
+    display: flex;
+    align-content: space-evenly;
+  
+    
+}
+
+.nested-flex-item-skills-profile{
+    border-style: bold;
+    border-color:black;
+    border:3px solid;
+    align-content: space-evenly;
+}
+
+
+
+.nested-flex-container2{
+    display: flex;
+    align-content: space-evenly;
+  
+    
+}
+
+.nested-flex-item-projects{
+    border-style: bold;
+    border-color:black;
+    border:3px solid;
+    
+}
+
+.nested-flex-item{
+    border: 3px solid;
+    padding:5px;
+    margin:5px;
+    border-color: black;
+    border-style: bold;
+
+    text-align: center;
+    border-color: transparent;
+}
+
+.nested-flex-item-autobiography-skills{
+    border-style: bold;
+    border-color:black;
+    border:3px solid;
+}
+
+
+.featuredPhoto{
+    width: 400px;
+    height: auto;
+}
+
+.firstpic{
+    width:50px;
+    height: 50px;
     
 }
